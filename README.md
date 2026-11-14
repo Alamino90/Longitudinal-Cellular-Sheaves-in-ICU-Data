@@ -8,7 +8,7 @@ The study uses the publicly available **PhysioNet 2019 Challenge dataset** (DOI:
 
 Processed datasets and preprocessing procedures are available through Zenodo under the **CC BY 4.0 license**:
 
-**Zenodo DOI:**
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.24211811
 
 ## Cohorts
 The processed data comprise three patient cohorts:
@@ -17,7 +17,7 @@ The processed data comprise three patient cohorts:
 - **Analysis_Normal:** Independent non-septic ICU patients used for downstream analysis.
 - **Septic:** Sepsis-positive ICU patients.
 
-The reference cohort does not represent healthy individuals and may include patients with other acute or chronic illnesses. Also, the three patient cohort partitions, are publicly available through Zenodo under the CC BY 4.0 license.
+The reference cohort does not represent healthy individuals and may include patients with other acute or chronic illnesses. Also, the three patient cohort partitions, are publicly available through Zenodo under the CC BY 4.0 license [https://doi.org/10.5281/zenodo.24211811].
 
 ## Methodology
 The pipeline includes data preprocessing, missingness assessment, reference transition estimation using patient-grouped cross-validation, cellular-sheaf residual computation, and patient-level energy aggregation with temporal alignment.
